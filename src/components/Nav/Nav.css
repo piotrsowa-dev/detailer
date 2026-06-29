@@ -1,0 +1,46 @@
+nav
+{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    position: fixed;
+}
+.logosection
+{
+    text-transform: uppercase;
+    justify-self: start;
+   
+}
+.barsection
+{
+    justify-self: center;
+    gap: 20px;
+    display: flex;
+}
+.barsection > a:hover
+{
+    color: var(--accents);
+}
+.rightsection
+{
+    justify-self: end;
+    gap: 20px;
+    display: flex;
+}
+nav>div>a
+{
+    text-decoration: none;
+    color: var(--text);
+    cursor: pointer;
+    transition-duration: 0.155s;
+}
+.rightsection > span > span
+{
+    color: var(--text);
+    transition-duration: 0.155s;
+}
+.rightsection > span > span:hover
+{
+    color: var(--accents)
+}
