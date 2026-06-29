@@ -16,7 +16,7 @@ function Nav() {
                 <a href="">FAQ</a>
             </div>
             <div className="rightsection">
-                <a href="">Umów Wizyte</a>
+                <a href="">Umów wizytę</a>
                 <span>
                     <span>1</span>
                     <span>2</span>
