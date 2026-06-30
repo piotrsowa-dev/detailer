@@ -1,0 +1,8 @@
+main
+{
+    width: 1200px;
+}
+.main-bg>img
+{
+    position: absolute;
+}
